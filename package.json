@@ -7,8 +7,7 @@
     "start": "nodemon ./server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:electron": "NODE_ENV=development nodemon ./server/server.js & webpack serve --config webpack.react.config.js --mode development & webpack --config webpack.electron.config.js --mode development && electron .",
-    "dev:react": "NODE_ENV=development webpack serve --config webpack.react.config.js --mode development",
-    "cy:run": "cypress run"
+    "dev:react": "NODE_ENV=development webpack serve --config webpack.react.config.js --mode development"
   },
   "repository": {
     "type": "git",
